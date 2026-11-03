@@ -1,0 +1,33 @@
+# Сборка CMake
+build-*/
+build/
+out/
+cmake-build-*/
+
+# Скомпилированные шейдеры
+shaders/*.spv
+
+# ImGui
+imgui.ini
+
+# Visual Studio и прочие служебные файлы
+.vs/
+*.user
+*.suo
+*.ncb
+*.opendb
+*.VC.db
+*.VC.opendb
+
+# Объектные файлы и исполняемые, если собрать не в build-*
+*.obj
+*.o
+*.exe
+*.pdb
+*.ilk
+*.idb
+
+# Система
+Thumbs.db
+Desktop.ini
+.DS_Store
